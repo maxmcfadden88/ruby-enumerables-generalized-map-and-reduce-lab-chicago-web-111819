@@ -13,7 +13,7 @@ def reduce(array, starting_point=nil)
     accum = starting_point
     i = 0
   else
-    accum = s[0]
+    accum = array[0]
     i = 1
   end
   while i < array.length
